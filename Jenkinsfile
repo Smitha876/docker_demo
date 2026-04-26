@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/Smitha876/docker_demo'
-            }
+      stage('Clone') {
+        steps {
+            git branch: 'main', url: 'https://github.com/Smitha876/docker_demo.git'
         }
+    }
 
         stage('Build Docker Image') {
             steps {
