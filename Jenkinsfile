@@ -21,7 +21,7 @@ pipeline {
                     
                     bat 'echo %PASS% | "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" login -u %USER% --password-stdin'
                     
-                    bat '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" push smitha876/myapp:v1'
+                    bat '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" push smitha209/myapp:v1'
                 }
             }
         }
