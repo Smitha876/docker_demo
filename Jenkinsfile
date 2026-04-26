@@ -10,7 +10,7 @@ pipeline {
 
         stage('Tag Image') {
             steps {
-                bat '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" tag myapp smitha876/myapp:v1'
+                bat '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" tag myapp smitha209/myapp:v1'
             }
         }
 
